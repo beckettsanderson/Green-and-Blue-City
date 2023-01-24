@@ -1,0 +1,1570 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.22.0812.0353                               -->
+<workbook original-version='18.1' source-build='2022.2.1 (20222.22.0812.0353)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='budget-survey-data-for-opendata-recom' inline='true' name='federated.0xhfuai0y5actz14emvwe0g5v5u4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='budget-survey-data-for-opendata-recom' name='textscan.06lxx5k0u7j5iq18mywgo0omch98'>
+            <connection class='textscan' directory='C:/Users/becke/OneDrive/Documents/Northeastern Schoolwork/Fall 2022/DS 4200/Final Project' filename='budget-survey-data-for-opendata-recom.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.06lxx5k0u7j5iq18mywgo0omch98' name='budget-survey-data-for-opendata-recom.csv' table='[budget-survey-data-for-opendata-recom#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='datetime' name='Timestamp' ordinal='0' />
+            <column datatype='integer' name='Zip Code' ordinal='1' />
+            <column datatype='string' name='Neighborhood' ordinal='2' />
+            <column datatype='string' name='What do you want to know about the City&apos;s budget? (First choice)' ordinal='3' />
+            <column datatype='string' name='What do you want to know about the City&apos;s budget? (Second choice)' ordinal='4' />
+            <column datatype='string' name='What do you want to know about the City&apos;s budget? (Third Choice)' ordinal='5' />
+            <column datatype='string' name='What do you want to know about the City&apos;s budget? (Fourth Choice)' ordinal='6' />
+            <column datatype='string' name='What do you want to know about the City&apos;s budget? (Fifth Choice)' ordinal='7' />
+            <column datatype='string' name='What do you want to know about the City&apos;s budget? (Sixth Choice)' ordinal='8' />
+            <column datatype='string' name='What do you want Participatory Budgeting to look like?    (First Choice)' ordinal='9' />
+            <column datatype='string' name='What do you want Participatory Budgeting to look like?    (Second Choice)' ordinal='10' />
+            <column datatype='string' name='What do you want Participatory Budgeting to look like?    (Third Choice)' ordinal='11' />
+            <column datatype='string' name='What do you want Participatory Budgeting to look like?    (Fourth Choice)' ordinal='12' />
+            <column datatype='string' name='How do you want to continue to learn about the budget?  (First Choice)' ordinal='13' />
+            <column datatype='string' name='How do you want to continue to learn about the budget?  (Second Choice)' ordinal='14' />
+            <column datatype='string' name='How do you want to continue to learn about the budget?  (Third Choice)' ordinal='15' />
+            <column datatype='string' name='How do you want to continue to learn about the budget?  (Fourth Choice)' ordinal='16' />
+            <column datatype='string' name='How do you want to continue to learn about the budget?  (Fifth Choice)' ordinal='17' />
+            <column datatype='string' name='What are your top Transportation Priorities? (First Choice)' ordinal='18' />
+            <column datatype='string' name='What are your top Transportation Priorities? (Second Choice)' ordinal='19' />
+            <column datatype='string' name='What are your top Transportation Priorities? (Third Choice)' ordinal='20' />
+            <column datatype='string' name='What are your top Transportation Priorities? (Fourth Choice)' ordinal='21' />
+            <column datatype='string' name='What are your top Transportation Priorities? (Fifth Choice)' ordinal='22' />
+            <column datatype='string' name='What are your top Transportation Priorities? (Sixth Choice)' ordinal='23' />
+            <column datatype='string' name='What are your top Public Safety priorities? (First Choice)' ordinal='24' />
+            <column datatype='string' name='What are your top Public Safety priorities? (Second Choice)' ordinal='25' />
+            <column datatype='string' name='What are your top Public Safety priorities? (Third Choice)' ordinal='26' />
+            <column datatype='string' name='What are your top Public Safety priorities? (Fourth Choice)' ordinal='27' />
+            <column datatype='string' name='What are your top Public Safety priorities? (Fifth Choice)' ordinal='28' />
+            <column datatype='string' name='What are your top Public Safety priorities? (Sixth Choice)' ordinal='29' />
+            <column datatype='string' name='What are your top Housing priorities? (First Choice)' ordinal='30' />
+            <column datatype='string' name='What are your top Housing priorities? (Second Choice)' ordinal='31' />
+            <column datatype='string' name='What are your top Housing priorities? (Third Choice)' ordinal='32' />
+            <column datatype='string' name='What are your top Housing priorities? (Fourth Choice)' ordinal='33' />
+            <column datatype='string' name='What are your top Housing priorities? (Fifth Choice)' ordinal='34' />
+            <column datatype='string' name='What are your top  Education priorities? (First Choice)' ordinal='35' />
+            <column datatype='string' name='What are your top  Education priorities? (Second Choice)' ordinal='36' />
+            <column datatype='string' name='What are your top  Education priorities? (Third Choice)' ordinal='37' />
+            <column datatype='string' name='What are your top  Education priorities? (Fourth Choice)' ordinal='38' />
+            <column datatype='string' name='What are your top  Education priorities? (Fifth Choice)' ordinal='39' />
+            <column datatype='string' name='What are your top  Education priorities? (Sixth Choice)' ordinal='40' />
+            <column datatype='string' name='What are your top Open Space priorities? (First Choice)' ordinal='41' />
+            <column datatype='string' name='What are your top Open Space priorities? (Second Choice)' ordinal='42' />
+            <column datatype='string' name='What are your top Open Space priorities? (Third Choice)' ordinal='43' />
+            <column datatype='string' name='What are your top Open Space priorities? (Fourth Choice)' ordinal='44' />
+            <column datatype='string' name='What are your top Open Space priorities? (Fifth Choice)' ordinal='45' />
+            <column datatype='string' name='What are your top Open Space priorities? (Sixth Choice)' ordinal='46' />
+            <column datatype='string' name='What are your top Open Space priorities? (Seventh Choice)' ordinal='47' />
+            <column datatype='string' name='What are your top  Health priorities? (First Choice)' ordinal='48' />
+            <column datatype='string' name='What are your top  Health priorities? (Second Choice)' ordinal='49' />
+            <column datatype='string' name='What are your top  Health priorities? (Third Choice)' ordinal='50' />
+            <column datatype='string' name='What are your top  Health priorities? (Fourth Choice)' ordinal='51' />
+            <column datatype='string' name='What are your top  Health priorities? (Fifth Choice)' ordinal='52' />
+            <column datatype='string' name='What are your top Economic priorities? (First Choice)' ordinal='53' />
+            <column datatype='string' name='What are your top Economic priorities? (Second Choice)' ordinal='54' />
+            <column datatype='string' name='What are your top Economic priorities? (Third Choice)' ordinal='55' />
+            <column datatype='string' name='What are your top Economic priorities? (Fourth Choice)' ordinal='56' />
+            <column datatype='string' name='Gender' ordinal='57' />
+            <column datatype='string' name='Race' ordinal='58' />
+            <column datatype='string' name='Age' ordinal='59' />
+            <column datatype='string' name='F61' ordinal='60' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.06lxx5k0u7j5iq18mywgo0omch98' name='budget-survey-data-for-opendata-recom.csv' table='[budget-survey-data-for-opendata-recom#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='datetime' name='Timestamp' ordinal='0' />
+            <column datatype='integer' name='Zip Code' ordinal='1' />
+            <column datatype='string' name='Neighborhood' ordinal='2' />
+            <column datatype='string' name='What do you want to know about the City&apos;s budget? (First choice)' ordinal='3' />
+            <column datatype='string' name='What do you want to know about the City&apos;s budget? (Second choice)' ordinal='4' />
+            <column datatype='string' name='What do you want to know about the City&apos;s budget? (Third Choice)' ordinal='5' />
+            <column datatype='string' name='What do you want to know about the City&apos;s budget? (Fourth Choice)' ordinal='6' />
+            <column datatype='string' name='What do you want to know about the City&apos;s budget? (Fifth Choice)' ordinal='7' />
+            <column datatype='string' name='What do you want to know about the City&apos;s budget? (Sixth Choice)' ordinal='8' />
+            <column datatype='string' name='What do you want Participatory Budgeting to look like?    (First Choice)' ordinal='9' />
+            <column datatype='string' name='What do you want Participatory Budgeting to look like?    (Second Choice)' ordinal='10' />
+            <column datatype='string' name='What do you want Participatory Budgeting to look like?    (Third Choice)' ordinal='11' />
+            <column datatype='string' name='What do you want Participatory Budgeting to look like?    (Fourth Choice)' ordinal='12' />
+            <column datatype='string' name='How do you want to continue to learn about the budget?  (First Choice)' ordinal='13' />
+            <column datatype='string' name='How do you want to continue to learn about the budget?  (Second Choice)' ordinal='14' />
+            <column datatype='string' name='How do you want to continue to learn about the budget?  (Third Choice)' ordinal='15' />
+            <column datatype='string' name='How do you want to continue to learn about the budget?  (Fourth Choice)' ordinal='16' />
+            <column datatype='string' name='How do you want to continue to learn about the budget?  (Fifth Choice)' ordinal='17' />
+            <column datatype='string' name='What are your top Transportation Priorities? (First Choice)' ordinal='18' />
+            <column datatype='string' name='What are your top Transportation Priorities? (Second Choice)' ordinal='19' />
+            <column datatype='string' name='What are your top Transportation Priorities? (Third Choice)' ordinal='20' />
+            <column datatype='string' name='What are your top Transportation Priorities? (Fourth Choice)' ordinal='21' />
+            <column datatype='string' name='What are your top Transportation Priorities? (Fifth Choice)' ordinal='22' />
+            <column datatype='string' name='What are your top Transportation Priorities? (Sixth Choice)' ordinal='23' />
+            <column datatype='string' name='What are your top Public Safety priorities? (First Choice)' ordinal='24' />
+            <column datatype='string' name='What are your top Public Safety priorities? (Second Choice)' ordinal='25' />
+            <column datatype='string' name='What are your top Public Safety priorities? (Third Choice)' ordinal='26' />
+            <column datatype='string' name='What are your top Public Safety priorities? (Fourth Choice)' ordinal='27' />
+            <column datatype='string' name='What are your top Public Safety priorities? (Fifth Choice)' ordinal='28' />
+            <column datatype='string' name='What are your top Public Safety priorities? (Sixth Choice)' ordinal='29' />
+            <column datatype='string' name='What are your top Housing priorities? (First Choice)' ordinal='30' />
+            <column datatype='string' name='What are your top Housing priorities? (Second Choice)' ordinal='31' />
+            <column datatype='string' name='What are your top Housing priorities? (Third Choice)' ordinal='32' />
+            <column datatype='string' name='What are your top Housing priorities? (Fourth Choice)' ordinal='33' />
+            <column datatype='string' name='What are your top Housing priorities? (Fifth Choice)' ordinal='34' />
+            <column datatype='string' name='What are your top  Education priorities? (First Choice)' ordinal='35' />
+            <column datatype='string' name='What are your top  Education priorities? (Second Choice)' ordinal='36' />
+            <column datatype='string' name='What are your top  Education priorities? (Third Choice)' ordinal='37' />
+            <column datatype='string' name='What are your top  Education priorities? (Fourth Choice)' ordinal='38' />
+            <column datatype='string' name='What are your top  Education priorities? (Fifth Choice)' ordinal='39' />
+            <column datatype='string' name='What are your top  Education priorities? (Sixth Choice)' ordinal='40' />
+            <column datatype='string' name='What are your top Open Space priorities? (First Choice)' ordinal='41' />
+            <column datatype='string' name='What are your top Open Space priorities? (Second Choice)' ordinal='42' />
+            <column datatype='string' name='What are your top Open Space priorities? (Third Choice)' ordinal='43' />
+            <column datatype='string' name='What are your top Open Space priorities? (Fourth Choice)' ordinal='44' />
+            <column datatype='string' name='What are your top Open Space priorities? (Fifth Choice)' ordinal='45' />
+            <column datatype='string' name='What are your top Open Space priorities? (Sixth Choice)' ordinal='46' />
+            <column datatype='string' name='What are your top Open Space priorities? (Seventh Choice)' ordinal='47' />
+            <column datatype='string' name='What are your top  Health priorities? (First Choice)' ordinal='48' />
+            <column datatype='string' name='What are your top  Health priorities? (Second Choice)' ordinal='49' />
+            <column datatype='string' name='What are your top  Health priorities? (Third Choice)' ordinal='50' />
+            <column datatype='string' name='What are your top  Health priorities? (Fourth Choice)' ordinal='51' />
+            <column datatype='string' name='What are your top  Health priorities? (Fifth Choice)' ordinal='52' />
+            <column datatype='string' name='What are your top Economic priorities? (First Choice)' ordinal='53' />
+            <column datatype='string' name='What are your top Economic priorities? (Second Choice)' ordinal='54' />
+            <column datatype='string' name='What are your top Economic priorities? (Third Choice)' ordinal='55' />
+            <column datatype='string' name='What are your top Economic priorities? (Fourth Choice)' ordinal='56' />
+            <column datatype='string' name='Gender' ordinal='57' />
+            <column datatype='string' name='Race' ordinal='58' />
+            <column datatype='string' name='Age' ordinal='59' />
+            <column datatype='string' name='F61' ordinal='60' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timestamp</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Timestamp]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>Timestamp</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Zip Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Zip Code]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>Zip Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neighborhood</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Neighborhood]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>Neighborhood</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What do you want to know about the City&apos;s budget? (First choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What do you want to know about the City&apos;s budget? (First choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What do you want to know about the City&apos;s budget? (First choice)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What do you want to know about the City&apos;s budget? (Second choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What do you want to know about the City&apos;s budget? (Second choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What do you want to know about the City&apos;s budget? (Second choice)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What do you want to know about the City&apos;s budget? (Third Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What do you want to know about the City&apos;s budget? (Third Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What do you want to know about the City&apos;s budget? (Third Choice)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What do you want to know about the City&apos;s budget? (Fourth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What do you want to know about the City&apos;s budget? (Fourth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What do you want to know about the City&apos;s budget? (Fourth Choice)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What do you want to know about the City&apos;s budget? (Fifth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What do you want to know about the City&apos;s budget? (Fifth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What do you want to know about the City&apos;s budget? (Fifth Choice)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What do you want to know about the City&apos;s budget? (Sixth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What do you want to know about the City&apos;s budget? (Sixth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What do you want to know about the City&apos;s budget? (Sixth Choice)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What do you want Participatory Budgeting to look like?    (First Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What do you want Participatory Budgeting to look like?    (First Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What do you want Participatory Budgeting to look like?    (First Choice)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What do you want Participatory Budgeting to look like?    (Second Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What do you want Participatory Budgeting to look like?    (Second Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What do you want Participatory Budgeting to look like?    (Second Choice)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What do you want Participatory Budgeting to look like?    (Third Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What do you want Participatory Budgeting to look like?    (Third Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What do you want Participatory Budgeting to look like?    (Third Choice)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What do you want Participatory Budgeting to look like?    (Fourth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What do you want Participatory Budgeting to look like?    (Fourth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What do you want Participatory Budgeting to look like?    (Fourth Choice)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>How do you want to continue to learn about the budget?  (First Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[How do you want to continue to learn about the budget?  (First Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>How do you want to continue to learn about the budget?  (First Choice)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>How do you want to continue to learn about the budget?  (Second Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[How do you want to continue to learn about the budget?  (Second Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>How do you want to continue to learn about the budget?  (Second Choice)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>How do you want to continue to learn about the budget?  (Third Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[How do you want to continue to learn about the budget?  (Third Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>How do you want to continue to learn about the budget?  (Third Choice)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>How do you want to continue to learn about the budget?  (Fourth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[How do you want to continue to learn about the budget?  (Fourth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>How do you want to continue to learn about the budget?  (Fourth Choice)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>How do you want to continue to learn about the budget?  (Fifth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[How do you want to continue to learn about the budget?  (Fifth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>How do you want to continue to learn about the budget?  (Fifth Choice)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Transportation Priorities? (First Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Transportation Priorities? (First Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Transportation Priorities? (First Choice)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Transportation Priorities? (Second Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Transportation Priorities? (Second Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Transportation Priorities? (Second Choice)</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Transportation Priorities? (Third Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Transportation Priorities? (Third Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Transportation Priorities? (Third Choice)</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Transportation Priorities? (Fourth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Transportation Priorities? (Fourth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Transportation Priorities? (Fourth Choice)</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Transportation Priorities? (Fifth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Transportation Priorities? (Fifth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Transportation Priorities? (Fifth Choice)</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Transportation Priorities? (Sixth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Transportation Priorities? (Sixth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Transportation Priorities? (Sixth Choice)</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Public Safety priorities? (First Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Public Safety priorities? (First Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Public Safety priorities? (First Choice)</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Public Safety priorities? (Second Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Public Safety priorities? (Second Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Public Safety priorities? (Second Choice)</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Public Safety priorities? (Third Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Public Safety priorities? (Third Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Public Safety priorities? (Third Choice)</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Public Safety priorities? (Fourth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Public Safety priorities? (Fourth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Public Safety priorities? (Fourth Choice)</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Public Safety priorities? (Fifth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Public Safety priorities? (Fifth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Public Safety priorities? (Fifth Choice)</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Public Safety priorities? (Sixth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Public Safety priorities? (Sixth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Public Safety priorities? (Sixth Choice)</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Housing priorities? (First Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Housing priorities? (First Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Housing priorities? (First Choice)</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Housing priorities? (Second Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Housing priorities? (Second Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Housing priorities? (Second Choice)</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Housing priorities? (Third Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Housing priorities? (Third Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Housing priorities? (Third Choice)</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Housing priorities? (Fourth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Housing priorities? (Fourth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Housing priorities? (Fourth Choice)</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Housing priorities? (Fifth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Housing priorities? (Fifth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Housing priorities? (Fifth Choice)</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top  Education priorities? (First Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top  Education priorities? (First Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top  Education priorities? (First Choice)</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top  Education priorities? (Second Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top  Education priorities? (Second Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top  Education priorities? (Second Choice)</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top  Education priorities? (Third Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top  Education priorities? (Third Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top  Education priorities? (Third Choice)</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top  Education priorities? (Fourth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top  Education priorities? (Fourth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top  Education priorities? (Fourth Choice)</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top  Education priorities? (Fifth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top  Education priorities? (Fifth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top  Education priorities? (Fifth Choice)</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top  Education priorities? (Sixth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top  Education priorities? (Sixth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top  Education priorities? (Sixth Choice)</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Open Space priorities? (First Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Open Space priorities? (First Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Open Space priorities? (First Choice)</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Open Space priorities? (Second Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Open Space priorities? (Second Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Open Space priorities? (Second Choice)</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Open Space priorities? (Third Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Open Space priorities? (Third Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Open Space priorities? (Third Choice)</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Open Space priorities? (Fourth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Open Space priorities? (Fourth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Open Space priorities? (Fourth Choice)</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Open Space priorities? (Fifth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Open Space priorities? (Fifth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Open Space priorities? (Fifth Choice)</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Open Space priorities? (Sixth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Open Space priorities? (Sixth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Open Space priorities? (Sixth Choice)</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Open Space priorities? (Seventh Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Open Space priorities? (Seventh Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Open Space priorities? (Seventh Choice)</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top  Health priorities? (First Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top  Health priorities? (First Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top  Health priorities? (First Choice)</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top  Health priorities? (Second Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top  Health priorities? (Second Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top  Health priorities? (Second Choice)</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top  Health priorities? (Third Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top  Health priorities? (Third Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top  Health priorities? (Third Choice)</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top  Health priorities? (Fourth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top  Health priorities? (Fourth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top  Health priorities? (Fourth Choice)</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top  Health priorities? (Fifth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top  Health priorities? (Fifth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top  Health priorities? (Fifth Choice)</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Economic priorities? (First Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Economic priorities? (First Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Economic priorities? (First Choice)</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Economic priorities? (Second Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Economic priorities? (Second Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Economic priorities? (Second Choice)</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Economic priorities? (Third Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Economic priorities? (Third Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Economic priorities? (Third Choice)</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What are your top Economic priorities? (Fourth Choice)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[What are your top Economic priorities? (Fourth Choice)]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>What are your top Economic priorities? (Fourth Choice)</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Race</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Race]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>Race</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F61</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F61]</local-name>
+            <parent-name>[budget-survey-data-for-opendata-recom.csv]</parent-name>
+            <remote-alias>F61</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' hidden='true' name='[F61]' role='dimension' type='nominal' />
+      <column datatype='string' name='[What are your top Open Space priorities? (Fifth Choice)]' role='dimension' type='nominal' />
+      <column caption='What are your top Open Space priorities?' datatype='string' name='[What are your top Open Space priorities? (First Choice)]' role='dimension' type='nominal' />
+      <column datatype='string' name='[What are your top Open Space priorities? (Fourth Choice)]' role='dimension' type='nominal' />
+      <column datatype='string' name='[What are your top Open Space priorities? (Second Choice)]' role='dimension' type='nominal' />
+      <column datatype='string' name='[What are your top Open Space priorities? (Seventh Choice)]' role='dimension' type='nominal' />
+      <column datatype='string' name='[What are your top Open Space priorities? (Sixth Choice)]' role='dimension' type='nominal' />
+      <column datatype='string' name='[What are your top Open Space priorities? (Third Choice)]' role='dimension' type='nominal' />
+      <column datatype='string' name='[What do you want to know about the City&apos;s budget? (Fifth Choice)]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[What do you want to know about the City&apos;s budget? (First choice)]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[What do you want to know about the City&apos;s budget? (Fourth Choice)]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[What do you want to know about the City&apos;s budget? (Second choice)]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[What do you want to know about the City&apos;s budget? (Sixth Choice)]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[What do you want to know about the City&apos;s budget? (Third Choice)]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Zip Code]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='budget-survey-data-for-opendata-recom.csv' datatype='table' name='[__tableau_internal_object_id__].[budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87]' role='measure' type='quantitative' />
+      <group caption='All Open Space Priorities' name='[What are your top Open Space priorities? (Fifth Choice), What are your top Open Space priorities? (First Choice), What are your top Open Space priorities? (Fourth Choice) and 4 more (Combined)]' name-style='unqualified' user:ui-builder='nest-group'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[What are your top Open Space priorities? (Fifth Choice)]' />
+          <groupfilter function='level-members' level='[What are your top Open Space priorities? (First Choice)]' />
+          <groupfilter function='level-members' level='[What are your top Open Space priorities? (Fourth Choice)]' />
+          <groupfilter function='level-members' level='[What are your top Open Space priorities? (Second Choice)]' />
+          <groupfilter function='level-members' level='[What are your top Open Space priorities? (Seventh Choice)]' />
+          <groupfilter function='level-members' level='[What are your top Open Space priorities? (Sixth Choice)]' />
+          <groupfilter function='level-members' level='[What are your top Open Space priorities? (Third Choice)]' />
+        </groupfilter>
+      </group>
+      <drill-paths>
+        <drill-path name='Economic Priorities'>
+          <field>[What are your top Economic priorities? (Fourth Choice)]</field>
+          <field>[What are your top Economic priorities? (Second Choice)]</field>
+          <field>[What are your top Economic priorities? (Third Choice)]</field>
+          <field>[What are your top Economic priorities? (First Choice)]</field>
+        </drill-path>
+        <drill-path name='Education Priorities (1-5)'>
+          <field>[What are your top  Education priorities? (First Choice)]</field>
+          <field>[What are your top  Education priorities? (Second Choice)]</field>
+          <field>[What are your top  Education priorities? (Third Choice)]</field>
+          <field>[What are your top  Education priorities? (Fourth Choice)]</field>
+          <field>[What are your top  Education priorities? (Fifth Choice)]</field>
+          <field>[What are your top  Education priorities? (Sixth Choice)]</field>
+        </drill-path>
+        <drill-path name='General Info'>
+          <field>[Age]</field>
+          <field>[Gender]</field>
+          <field>[Neighborhood]</field>
+          <field>[Race]</field>
+          <field>[Timestamp]</field>
+        </drill-path>
+        <drill-path name='Health Priorities (1-5)'>
+          <field>[What are your top  Health priorities? (First Choice)]</field>
+          <field>[What are your top  Health priorities? (Fifth Choice)]</field>
+          <field>[What are your top  Health priorities? (Fourth Choice)]</field>
+          <field>[What are your top  Health priorities? (Second Choice)]</field>
+          <field>[What are your top  Health priorities? (Third Choice)]</field>
+        </drill-path>
+        <drill-path name='Learn Budget (1-5)'>
+          <field>[How do you want to continue to learn about the budget?  (First Choice)]</field>
+          <field>[How do you want to continue to learn about the budget?  (Second Choice)]</field>
+          <field>[How do you want to continue to learn about the budget?  (Third Choice)]</field>
+          <field>[How do you want to continue to learn about the budget?  (Fourth Choice)]</field>
+          <field>[How do you want to continue to learn about the budget?  (Fifth Choice)]</field>
+        </drill-path>
+        <drill-path name='Open Space Priorities (1-5)'>
+          <field>[What are your top Open Space priorities? (Fifth Choice), What are your top Open Space priorities? (First Choice), What are your top Open Space priorities? (Fourth Choice) and 4 more (Combined)]</field>
+          <field>[What are your top Open Space priorities? (First Choice)]</field>
+          <field>[What are your top Open Space priorities? (Second Choice)]</field>
+          <field>[What are your top Open Space priorities? (Third Choice)]</field>
+          <field>[What are your top Open Space priorities? (Fourth Choice)]</field>
+          <field>[What are your top Open Space priorities? (Fifth Choice)]</field>
+          <field>[What are your top Open Space priorities? (Sixth Choice)]</field>
+          <field>[What are your top Open Space priorities? (Seventh Choice)]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='false' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='budget-survey-data-for-opendata-recom.csv' id='budget-survey-data-for-opendata-recom.csv_E6331AE54D1D4322815CF5DB2B190D87'>
+            <properties context=''>
+              <relation connection='textscan.06lxx5k0u7j5iq18mywgo0omch98' name='budget-survey-data-for-opendata-recom.csv' table='[budget-survey-data-for-opendata-recom#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='datetime' name='Timestamp' ordinal='0' />
+                  <column datatype='integer' name='Zip Code' ordinal='1' />
+                  <column datatype='string' name='Neighborhood' ordinal='2' />
+                  <column datatype='string' name='What do you want to know about the City&apos;s budget? (First choice)' ordinal='3' />
+                  <column datatype='string' name='What do you want to know about the City&apos;s budget? (Second choice)' ordinal='4' />
+                  <column datatype='string' name='What do you want to know about the City&apos;s budget? (Third Choice)' ordinal='5' />
+                  <column datatype='string' name='What do you want to know about the City&apos;s budget? (Fourth Choice)' ordinal='6' />
+                  <column datatype='string' name='What do you want to know about the City&apos;s budget? (Fifth Choice)' ordinal='7' />
+                  <column datatype='string' name='What do you want to know about the City&apos;s budget? (Sixth Choice)' ordinal='8' />
+                  <column datatype='string' name='What do you want Participatory Budgeting to look like?    (First Choice)' ordinal='9' />
+                  <column datatype='string' name='What do you want Participatory Budgeting to look like?    (Second Choice)' ordinal='10' />
+                  <column datatype='string' name='What do you want Participatory Budgeting to look like?    (Third Choice)' ordinal='11' />
+                  <column datatype='string' name='What do you want Participatory Budgeting to look like?    (Fourth Choice)' ordinal='12' />
+                  <column datatype='string' name='How do you want to continue to learn about the budget?  (First Choice)' ordinal='13' />
+                  <column datatype='string' name='How do you want to continue to learn about the budget?  (Second Choice)' ordinal='14' />
+                  <column datatype='string' name='How do you want to continue to learn about the budget?  (Third Choice)' ordinal='15' />
+                  <column datatype='string' name='How do you want to continue to learn about the budget?  (Fourth Choice)' ordinal='16' />
+                  <column datatype='string' name='How do you want to continue to learn about the budget?  (Fifth Choice)' ordinal='17' />
+                  <column datatype='string' name='What are your top Transportation Priorities? (First Choice)' ordinal='18' />
+                  <column datatype='string' name='What are your top Transportation Priorities? (Second Choice)' ordinal='19' />
+                  <column datatype='string' name='What are your top Transportation Priorities? (Third Choice)' ordinal='20' />
+                  <column datatype='string' name='What are your top Transportation Priorities? (Fourth Choice)' ordinal='21' />
+                  <column datatype='string' name='What are your top Transportation Priorities? (Fifth Choice)' ordinal='22' />
+                  <column datatype='string' name='What are your top Transportation Priorities? (Sixth Choice)' ordinal='23' />
+                  <column datatype='string' name='What are your top Public Safety priorities? (First Choice)' ordinal='24' />
+                  <column datatype='string' name='What are your top Public Safety priorities? (Second Choice)' ordinal='25' />
+                  <column datatype='string' name='What are your top Public Safety priorities? (Third Choice)' ordinal='26' />
+                  <column datatype='string' name='What are your top Public Safety priorities? (Fourth Choice)' ordinal='27' />
+                  <column datatype='string' name='What are your top Public Safety priorities? (Fifth Choice)' ordinal='28' />
+                  <column datatype='string' name='What are your top Public Safety priorities? (Sixth Choice)' ordinal='29' />
+                  <column datatype='string' name='What are your top Housing priorities? (First Choice)' ordinal='30' />
+                  <column datatype='string' name='What are your top Housing priorities? (Second Choice)' ordinal='31' />
+                  <column datatype='string' name='What are your top Housing priorities? (Third Choice)' ordinal='32' />
+                  <column datatype='string' name='What are your top Housing priorities? (Fourth Choice)' ordinal='33' />
+                  <column datatype='string' name='What are your top Housing priorities? (Fifth Choice)' ordinal='34' />
+                  <column datatype='string' name='What are your top  Education priorities? (First Choice)' ordinal='35' />
+                  <column datatype='string' name='What are your top  Education priorities? (Second Choice)' ordinal='36' />
+                  <column datatype='string' name='What are your top  Education priorities? (Third Choice)' ordinal='37' />
+                  <column datatype='string' name='What are your top  Education priorities? (Fourth Choice)' ordinal='38' />
+                  <column datatype='string' name='What are your top  Education priorities? (Fifth Choice)' ordinal='39' />
+                  <column datatype='string' name='What are your top  Education priorities? (Sixth Choice)' ordinal='40' />
+                  <column datatype='string' name='What are your top Open Space priorities? (First Choice)' ordinal='41' />
+                  <column datatype='string' name='What are your top Open Space priorities? (Second Choice)' ordinal='42' />
+                  <column datatype='string' name='What are your top Open Space priorities? (Third Choice)' ordinal='43' />
+                  <column datatype='string' name='What are your top Open Space priorities? (Fourth Choice)' ordinal='44' />
+                  <column datatype='string' name='What are your top Open Space priorities? (Fifth Choice)' ordinal='45' />
+                  <column datatype='string' name='What are your top Open Space priorities? (Sixth Choice)' ordinal='46' />
+                  <column datatype='string' name='What are your top Open Space priorities? (Seventh Choice)' ordinal='47' />
+                  <column datatype='string' name='What are your top  Health priorities? (First Choice)' ordinal='48' />
+                  <column datatype='string' name='What are your top  Health priorities? (Second Choice)' ordinal='49' />
+                  <column datatype='string' name='What are your top  Health priorities? (Third Choice)' ordinal='50' />
+                  <column datatype='string' name='What are your top  Health priorities? (Fourth Choice)' ordinal='51' />
+                  <column datatype='string' name='What are your top  Health priorities? (Fifth Choice)' ordinal='52' />
+                  <column datatype='string' name='What are your top Economic priorities? (First Choice)' ordinal='53' />
+                  <column datatype='string' name='What are your top Economic priorities? (Second Choice)' ordinal='54' />
+                  <column datatype='string' name='What are your top Economic priorities? (Third Choice)' ordinal='55' />
+                  <column datatype='string' name='What are your top Economic priorities? (Fourth Choice)' ordinal='56' />
+                  <column datatype='string' name='Gender' ordinal='57' />
+                  <column datatype='string' name='Race' ordinal='58' />
+                  <column datatype='string' name='Age' ordinal='59' />
+                  <column datatype='string' name='F61' ordinal='60' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Open Space Communtiy Priorities'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run underline='true'>Open Space Communtiy Priorities</run>
+            <run>Æ&#10;</run>
+            <run fontsize='8'>(Info from Boston Mayor and City Council Survey)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='budget-survey-data-for-opendata-recom' name='federated.0xhfuai0y5actz14emvwe0g5v5u4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xhfuai0y5actz14emvwe0g5v5u4'>
+            <column caption='What are your top Open Space priorities?' datatype='string' name='[What are your top Open Space priorities? (First Choice)]' role='dimension' type='nominal' />
+            <column-instance column='[What are your top Open Space priorities? (First Choice)]' derivation='Count' name='[cnt:What are your top Open Space priorities? (First Choice):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[What are your top Open Space priorities? (First Choice)]' derivation='None' name='[none:What are your top Open Space priorities? (First Choice):nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0xhfuai0y5actz14emvwe0g5v5u4].[none:What are your top Open Space priorities? (First Choice):nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:What are your top Open Space priorities? (First Choice):nk]' />
+              <groupfilter function='member' level='[none:What are your top Open Space priorities? (First Choice):nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0xhfuai0y5actz14emvwe0g5v5u4].[none:What are your top Open Space priorities? (First Choice):nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0xhfuai0y5actz14emvwe0g5v5u4].[cnt:What are your top Open Space priorities? (First Choice):qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0xhfuai0y5actz14emvwe0g5v5u4].[none:What are your top Open Space priorities? (First Choice):nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0xhfuai0y5actz14emvwe0g5v5u4].[cnt:What are your top Open Space priorities? (First Choice):qk]' scope='cols' value='Number of Community Members that Chose as the Biggest Priority' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.0xhfuai0y5actz14emvwe0g5v5u4].[none:What are your top Open Space priorities? (First Choice):nk]' value='68' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0xhfuai0y5actz14emvwe0g5v5u4].[none:What are your top Open Space priorities? (First Choice):nk]' value='268' />
+            <format attr='height-header' value='52' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0xhfuai0y5actz14emvwe0g5v5u4].[cnt:What are your top Open Space priorities? (First Choice):qk]' />
+              <text column='[federated.0xhfuai0y5actz14emvwe0g5v5u4].[cnt:What are your top Open Space priorities? (First Choice):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0xhfuai0y5actz14emvwe0g5v5u4].[none:What are your top Open Space priorities? (First Choice):nk]</rows>
+        <cols>[federated.0xhfuai0y5actz14emvwe0g5v5u4].[cnt:What are your top Open Space priorities? (First Choice):qk]</cols>
+      </table>
+      <simple-id uuid='{AFD46CFC-908F-4982-B664-14A306DAC10A}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Open Space Communtiy Priorities'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0xhfuai0y5actz14emvwe0g5v5u4].[What are your top Open Space priorities? (Fifth Choice), What are your top Open Space priorities? (First Choice), What are your top Open Space priorities? (Fourth Choice) and 4 more (Combined)]</field>
+            <field>[federated.0xhfuai0y5actz14emvwe0g5v5u4].[cnt:What are your top Open Space priorities? (First Choice):qk]</field>
+            <field>[federated.0xhfuai0y5actz14emvwe0g5v5u4].[none:F61:nk]</field>
+            <field>[federated.0xhfuai0y5actz14emvwe0g5v5u4].[none:What are your top Open Space priorities? (First Choice):nk]</field>
+            <field>[federated.0xhfuai0y5actz14emvwe0g5v5u4].[none:What are your top Open Space priorities? (Second Choice):nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A4CB2264-A147-43BB-A99F-7AEF5B343FD5}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Open Space Communtiy Priorities' width='192'>
+      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
+      dxvDBTK40/z/v+GBagoR8A0AAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
